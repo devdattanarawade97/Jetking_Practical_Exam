@@ -1,0 +1,271 @@
+.nav-wrapper {
+    list-style-type: none;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+
+    height: 50px;
+
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    padding-left: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+    overflow: hidden;
+    padding-right: 0;
+}
+
+.nav-bar-link {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 17px;
+}
+
+li a:hover {
+    background-color: rgb(247, 247, 166);
+}
+
+#home {
+    background-color: green;
+}
+
+#home:hover {
+    background-color: rgb(247, 247, 166);
+}
+
+.nav-link-right {
+    margin-left: auto;
+    justify-content: flex-end;
+}
+
+
+.about-jetking-wrapper {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.about-jetking {
+    text-align: left;
+}
+
+.jetking-logo-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#jetking-logo {
+    width: 400px;
+    height: 300px;
+}
+
+.all-content-wrapper {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table,
+th,
+td {
+    border: 1.5px solid rgb(212, 212, 212);
+    border-collapse: collapse;
+    height: 50px;
+    text-align: left;
+    padding: 10px;
+}
+
+.offices-table {
+    width: 100%;
+}
+
+.register-heading {
+    background-color: yellow;
+    display: inline;
+}
+
+.input-box {
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    background-color: rgb(232, 230, 230);
+}
+
+.form-details {
+    font-size: 20px;
+}
+
+.register-button {
+    width: 90%;
+    height: 50px;
+    background-color: rgb(32, 171, 32);
+    border: transparent;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+
+
+}
+
+
+.already-user-wrapper {
+    background-color: rgb(212, 212, 212);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.signin-button {
+    border: transparent;
+    background-color: rgb(212, 212, 212);
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(23, 23, 247);
+    padding: 10px;
+}
+
+.signin-button:hover {
+    background-color: rgb(240, 240, 155);
+
+}
+
+.corporate-heading-bottom {
+    background-color: yellow;
+    font-size: 30px;
+    display: inline;
+}
+
+.corporate-office-bottom {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.leave-comment-heading {
+    background-color: yellow;
+    font-size: 30px;
+    display: inline;
+}
+
+.leave-comment-wrapper {
+    font-size: 20px;
+}
+
+.put-comment {
+    font-size: 20px;
+}
+
+.comment-box {
+    letter-spacing: 3px;
+    height: 100px;
+    width: 250px;
+    margin-top: 5px;
+}
+
+.submit-button {
+    display: block;
+    margin-top: 5px;
+    border-radius: 5px;
+    height: 30px;
+    width: 70px;
+}
+
+.previous-button {
+    height: 50px;
+    width: 150px;
+    border: transparent;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.next-button {
+    height: 50px;
+    width: 100px;
+    background-color: green;
+    border: transparent;
+    color: white;
+    margin-left: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.bottom-images {
+    height: 200px;
+    width: 30%;
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.odd-row {
+    background-color: rgb(212, 212, 212);
+
+}
+
+.description {
+    font-size: 20px;
+    color: red;
+}
+
+.terms-and-policy-link {
+    text-decoration: none;
+}
+
+
+.link-wrapper {
+    font-size: 20px;
+    margin-left: 15%;
+}
+
+#official-link {
+    text-decoration-line: none;
+    color: blue;
+    margin-left: 10px;
+    font-size: 25px;
+    padding: 5px 10px;
+}
+
+#official-link:hover {
+    background-color: rgb(247, 247, 166);
+}
+
+.bottom-section {
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+footer {
+    font-size: 20px;
+    text-align: center;
+}
+
+.register-button-wrapper {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.contact {
+    padding: 10px;
+    margin: 10px;
+    display: block;
+}
+
+.contact:hover {
+    background-color: yellow;
+}
+
+.contact-wrapper {
+    border: transparent;
+    width: 40%;
+}
