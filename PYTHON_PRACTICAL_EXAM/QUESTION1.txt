@@ -1,0 +1,11 @@
+Define Python Loops and explain the classification of Python loops.
+
+ans=> 
+python loops is iterating function used when we need to execute certain statement or operation certain times or until the condition meet.
+there are two types of python loops 
+1. for loop and 2. while loop.
+ -for loop is used only when we know number of iterations needed to execute certain operation.
+ -while loop is only in that case when we dont know number of iteration needed to execute some function or other operation.
+ -if the condition is not given in while then while can execute that condition for infinite times .
+ -to break while loop or for loop we can use break statement. and in case of to proceed for next iteration we can use continue keyword.
+
