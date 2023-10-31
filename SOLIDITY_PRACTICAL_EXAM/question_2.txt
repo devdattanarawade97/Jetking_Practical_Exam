@@ -1,0 +1,29 @@
+2) Write a Smart Contract for understanding Global Variables in
+Solidity Programming Language. 
+
+ans : 
+
+
+global variables are the variable that are predefined by solidity and those variables are accessibles anywhere in contract as well as outside of contract . for example  , msg.sender , emit , event ,require , revert , modifier. etc
+
+
+
+ contract Variable_explanation{
+      
+       address public owner;
+       uint x=10;
+        uint y=20;
+        event(string);
+        
+          constructor(address owner){
+          owner=msg.sender;
+}
+        
+        function addsum() public returns(uint z){
+           require(msg.sender==owner , 'only owner can execute this fucntion')
+           emit(msg.sender)
+           return (x+y);
+}
+
+
+}

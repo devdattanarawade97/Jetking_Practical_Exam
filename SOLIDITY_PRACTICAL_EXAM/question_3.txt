@@ -1,0 +1,39 @@
+3) Write a Smart Contract for understanding View and Pure
+Functions in Solidity Programming Language.
+
+ans :
+
+
+* view functions in solidity : view functions in solidity is the one of the function type that have view visiblity . this type of functions
+are the view purpose only . this type of functions doesnot modifies state variables or neither executes transaction on blockchain.
+also this type of functions have access to state variables .
+
+* pure functions in solidity : this type of functions in solidity doesnot read the data from state variables as well as doesnot modifies state variables data . pure functions can take input and  calcultion or logic get executed only within function using local variables.
+
+
+following smart contract explains both view and pure functions :
+
+
+  pragma >=0.8;
+  
+contract Functions_explanation{
+       
+       //state variables
+       uint x=10;
+       uint y=20;
+      
+     // view function example
+     function view_function_example() public view returns (uint z){
+
+       return (x);
+}
+
+    //pure function example
+
+     function sum_using_pure() public pure returns(uint m){
+       uint l=20;
+       uint n=40;
+       return (l+n)
+}
+
+}

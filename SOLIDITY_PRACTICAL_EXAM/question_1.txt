@@ -1,0 +1,4 @@
+1) What are Smart Contracts? 
+
+
+ans : smart contracts are the self executional code that get executed only when certain conditions met . we can write smart contract using solidity . solidity is statistically typed language as we need to define data type while initializing variables . smart contract behaves like backend for blockchain based projects .
