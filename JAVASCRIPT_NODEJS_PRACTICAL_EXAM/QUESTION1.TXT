@@ -1,0 +1,6 @@
+1) What is a Node.js file and NPM?
+
+ANS => node.js file is nothing but the file with .js extension that contains javascript code . we can run node js file using node and file name with .js extension. node js used to run the
+javascript outside the browser and to perform the interaction with database as well as to access the built in node module.
+
+NPM is node module package manager used to install different modules and packages available on npm.js.
