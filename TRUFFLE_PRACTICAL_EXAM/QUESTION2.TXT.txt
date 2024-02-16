@@ -1,0 +1,15 @@
+2) Explain the steps involved in interacting with the Smart contract
+using Truffle develop.
+
+ans => 
+
+steps involved in interacting with smart contract :
+
+1) firstly make sure the lib and app need to be installed : 1] truffle should be installed globally 2] ganache CLI or user interface 
+2) then we need to make directory for project 
+3) we need to intialize truffle project using truffle init command 
+4) then we can compile project using following command : truffle compile 
+5) to migrate and deploy project we need to use following command : truffle migrate --network development
+6) need to run ganache locally using CLI or ganache userinterface
+7)make developement config in truffle.config file
+8)then to test smart contract we should use following command : truffle test 

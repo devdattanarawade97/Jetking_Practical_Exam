@@ -1,0 +1,21 @@
+1) Demonstrate the process of migrating the smart contract with
+Truffle Develop. 
+
+ANS => process to migrate smart contract using truffle develop
+
+1) firstly we need to create truffle project . we can create truffle project by two ways. either we can create simple truffle project without boiler plate code and sample smart contract 
+ or we can create truffle project with boiler plate code using truffle boxes .
+2) so here we creating project without boiler plate code . so we need to run following command in command shell : truffle init
+3) then we need to change some configuration in truffle-config.js 
+4) we need to add local ethreum developement network , port and solidity compiler version in that . use following code for that : 
+     developement : {
+           host : 127.0.0.1,
+           port : 7545,
+           network: "*",
+         }
+ 
+5) then we need to make some configuration in deploy.js and  need to import the smart contracts in deploy.js. we need to add the path of smart contract in deploy.js to deploy smart contract
+6) then we need to run ganache ( make sure ganache user interface app should be installed)
+7) then we need to import project in ganache to save workspace which will accessible in future ( or we can start quick ganache app directly without configuration)
+8) then we need to run following command to migrate smart contract and deploy it locally- truffle migrate --network developement
+  
