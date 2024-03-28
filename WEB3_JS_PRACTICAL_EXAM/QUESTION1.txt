@@ -1,0 +1,7 @@
+1) What is Web3.js?
+
+Ans ===> web3 is basically collection of javascript library used to interact with the blockchain . it provides apis for getting the accound balance , block information , interacting with contracts .
+        
+
+
+                

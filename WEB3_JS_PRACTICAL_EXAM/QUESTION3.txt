@@ -1,0 +1,15 @@
+ 
+3) Demonstrate how to check the account balances with the help of
+Web3.js.
+
+Ans ===>  we need to follow the below steps to check the account balance using web3.js 
+
+        steps : 
+              
+                1) open the vs code 
+                2) create npm project 
+                3) install web3 package using following command : npm install web3
+                4) create function named checkBalance or run below code directly in the command line interface
+                5)    const address = "0xabcd";
+
+                      const web3 = new web3.eth.getBalance(address); 

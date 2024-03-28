@@ -1,0 +1,4 @@
+2) How is Web3 different from Web2?
+
+Ans ====> in web2 version , their is single authority who have control over the users data . but in web3 version , all the user have control over their own data rather than single authority . since existance of single authority in web2 version , their are chances of misuse or tampering of data , but in web3 that eleminates chances of tampering or altering anyones data . 
+
