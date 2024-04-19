@@ -1,0 +1,92 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {
+				"@_2795": {
+					"entryPoint": null,
+					"id": 2795,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				}
+			},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "6080604052348015600e575f80fd5b50606f80601a5f395ff3fe6080604052348015600e575f80fd5b50600436106026575f3560e01c8063c855580f14602a575b5f80fd5b60306032565b005b5f3390505056fea264697066735822122046fcf80121ccf4f0da63c75eecae8f307d898b3a305f61404d578e78f69f1c2d64736f6c63430008140033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xE JUMPI PUSH0 DUP1 REVERT JUMPDEST POP PUSH1 0x6F DUP1 PUSH1 0x1A PUSH0 CODECOPY PUSH0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xE JUMPI PUSH0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x26 JUMPI PUSH0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0xC855580F EQ PUSH1 0x2A JUMPI JUMPDEST PUSH0 DUP1 REVERT JUMPDEST PUSH1 0x30 PUSH1 0x32 JUMP JUMPDEST STOP JUMPDEST PUSH0 CALLER SWAP1 POP POP JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 CHAINID 0xFC 0xF8 ADD 0x21 0xCC DELEGATECALL CREATE 0xDA PUSH4 0xC75EECAE DUP16 ADDRESS PUSH30 0x898B3A305F61404D578E78F69F1C2D64736F6C6343000814003300000000 ",
+			"sourceMap": "94:225:11:-:0;;;147:26;;;;;;;;;;94:225;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {
+				"@registerVirtualLand_2804": {
+					"entryPoint": 50,
+					"id": 2804,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				}
+			},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "6080604052348015600e575f80fd5b50600436106026575f3560e01c8063c855580f14602a575b5f80fd5b60306032565b005b5f3390505056fea264697066735822122046fcf80121ccf4f0da63c75eecae8f307d898b3a305f61404d578e78f69f1c2d64736f6c63430008140033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xE JUMPI PUSH0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x26 JUMPI PUSH0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0xC855580F EQ PUSH1 0x2A JUMPI JUMPDEST PUSH0 DUP1 REVERT JUMPDEST PUSH1 0x30 PUSH1 0x32 JUMP JUMPDEST STOP JUMPDEST PUSH0 CALLER SWAP1 POP POP JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 CHAINID 0xFC 0xF8 ADD 0x21 0xCC DELEGATECALL CREATE 0xDA PUSH4 0xC75EECAE DUP16 ADDRESS PUSH30 0x898B3A305F61404D578E78F69F1C2D64736F6C6343000814003300000000 ",
+			"sourceMap": "94:225:11:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;222:92;;;:::i;:::-;;;265:19;286:10;265:31;;260:54;222:92::o"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "22200",
+				"executionCost": "73",
+				"totalCost": "22273"
+			},
+			"external": {
+				"registerVirtualLand()": "132"
+			}
+		},
+		"methodIdentifiers": {
+			"registerVirtualLand()": "c855580f"
+		}
+	},
+	"abi": [
+		{
+			"inputs": [],
+			"stateMutability": "nonpayable",
+			"type": "constructor"
+		},
+		{
+			"inputs": [],
+			"name": "registerVirtualLand",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		}
+	]
+}
