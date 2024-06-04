@@ -1,0 +1,44 @@
+
+1) Write tests for your smart contract and demonstrate
+the process of testing using Hardhat Development Environment. 
+
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.8.20;
+
+
+
+contract SenderMessage {
+
+    //variable
+    string public message="";
+    
+
+    function sendMessage(string memory  newmessage) public  {
+
+        message=newmessage;
+
+     
+    }
+
+
+    function testMsgSent( string memory newMessage) public {
+         
+        
+    }
+}
+
+
+steps to test smart contract - 
+step 1) run npx hardhat node
+step 2) compile smart contract using - npx hardhat compile 
+step 3) migrate smart contract using - npx hardhat migrate 
+steps 4) test smart contract using - npx hardhat test
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+
+2) Demonstrate the steps involved in the process of
+deploying your smart contract to a live network.
+
+
+
+steps :
+
+step 1 : migrate smart contract using - npx hardhat migrate 
+
+step 2: config main net in hardhat.config.js
+
+step 3: - deploy smart contract on main net - npx hardhat deploy script/deploy.js --network main
